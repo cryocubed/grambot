@@ -19,7 +19,7 @@ public interface IInsta {
   void logout();
 
   /**
-   * Currently logged in account follows a user based on their id.
+   * Currently logged in account follows a user based on their ID.
    *
    * @param accountId the ID of the specified account.
    */
