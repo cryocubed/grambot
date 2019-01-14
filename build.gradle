@@ -3,16 +3,24 @@ plugins {
     id 'checkstyle'
     id 'jacoco'
     id 'net.ltgt.errorprone' version '0.6.1'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.5'
 }
 
 group 'com.josephbaca'
 version '1.0'
+
+mainClassName = 'view.MainApp'
 
 sourceCompatibility = 11
 targetCompatibility = 11
 
 repositories {
     mavenCentral()
+}
+
+javafx {
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
 }
 
 checkstyle {
@@ -32,6 +40,7 @@ test {
 
 dependencies {
 
+    // Error prone compiler
     errorprone 'com.google.errorprone:error_prone_core:2.3.2'
 
     // Annotations to help the IDE find bugs
