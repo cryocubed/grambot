@@ -10,7 +10,7 @@ plugins {
 group 'com.josephbaca'
 version '1.0'
 
-mainClassName = 'view.MainApp'
+mainClassName = 'main.MainApp'
 
 sourceCompatibility = 11
 targetCompatibility = 11

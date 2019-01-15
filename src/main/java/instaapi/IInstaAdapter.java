@@ -3,7 +3,7 @@ package instaapi;
 /**
  * Interface for connecting directly to the native Instagram API.
  */
-public interface IInsta {
+public interface IInstaAdapter {
 
   /**
    * Logs in an account.
