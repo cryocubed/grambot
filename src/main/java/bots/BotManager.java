@@ -6,7 +6,7 @@ package bots;
 public class BotManager implements IBotManager {
 
   public BotManager() {
-    throw new RuntimeException("not yet implemented");
+    // TODO initialize this
   }
 
   @Override
