@@ -9,10 +9,10 @@ public interface IBotManager {
   /**
    * Sets the number of likes to be given by bots.
    */
-  void setPostLikes(int id, int amount);
+  void setPostLikes(int instagramPostId, int amount);
 
   /**
    * Sets the number of followers to be given by bots.
    */
-  void setUserFollowers(int id, int amount);
+  void setUserFollowers(int instagramUserId, int amount);
 }
