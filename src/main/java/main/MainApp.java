@@ -1,4 +1,4 @@
-package view;
+package main;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -6,7 +6,9 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-
+/**
+ * Main application launcher.
+ */
 public class MainApp extends Application {
 
   public static void main(String[] args) {

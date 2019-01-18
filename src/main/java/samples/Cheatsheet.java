@@ -23,7 +23,7 @@ public class Cheatsheet { // This defines a class.
     // Learn about some basic operations
     basicOperations();
 
-    // Learn about data types
+    // Learn about api types
     dataTypes();
 
     // Control structures
@@ -55,10 +55,10 @@ public class Cheatsheet { // This defines a class.
   }
 
   /**
-   * This talks about all the varieties of data types.
+   * This talks about all the varieties of api types.
    */
   private static void dataTypes() {
-    // The main data types are as follows:
+    // The main api types are as follows:
 
     // String
     String name = "Mike";
@@ -73,7 +73,7 @@ public class Cheatsheet { // This defines a class.
     boolean isMale = true;
 
     /*
-    You can also do casting to convert data types to one another
+    You can also do casting to convert api types to one another
      */
     double myAge = 3.0;
     double yourAge = 5.3;
